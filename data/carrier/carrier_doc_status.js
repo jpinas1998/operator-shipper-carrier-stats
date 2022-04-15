@@ -1,1 +1,1 @@
-window.carrier_doc_status = '[{"stage_name": "Certificados", "cant": 495}, {"stage_name": "Con error", "cant": 57}, {"stage_name": "Pendientes", "cant": 24}]';
+window.carrier_doc_status = '[{"stage_name": "Certificados", "cant": 3889}, {"stage_name": "Con error", "cant": 373}, {"stage_name": "Pendientes", "cant": 158}]';

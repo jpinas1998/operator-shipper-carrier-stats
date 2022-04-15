@@ -1,1 +1,1 @@
-window.carrier_general_stats = '{"factura": 1558755.44, "cant_mercancia": 3895, "peso": 8475625.758, "km_recorridos": 160768.42, "cant_viajes": 495}';
+window.carrier_general_stats = '{"factura": 25251562.86, "cant_mercancia": 212985, "peso": 6707782.782, "km_recorridos": 757950.74, "cant_viajes": 3889}';
