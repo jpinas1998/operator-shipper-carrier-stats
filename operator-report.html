@@ -1,0 +1,184 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Centro de Reportes</title>
+    <link rel="icon" href="./static/img/favicon.ico">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./static/css/report.css">
+    <link rel="stylesheet" href="./static/vendor/css/bootstrap/bootstrap.min.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+<div id="navbar">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./static/img/logo.jpeg" alt="" width="35" height="35" class="d-inline-block align-top">
+                Centro de Reportes
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div id="main-content" class="container">
+
+    <div class="container">
+
+        <div class="center">
+            <h2>Reportes del operador</h2>
+            <hr style="width:40%;" class="center">
+        </div>
+
+        <br>
+
+        <table>
+            <tr>
+                <td>Nombre del Operador:</td>
+                <td id="operator-name"></td>
+            </tr>
+            <tbody>
+            <tr>
+                <td>RFC del Operador:</td>
+                <td id="operator-rfc"></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="transported-merchandise"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-4 center">
+                <canvas id="docs-status-chart-container"></canvas>
+            </div>
+            <div class="col-xl-4">
+                <canvas id="client-travel-most"></canvas>
+            </div>
+            <div class="col-xl-4">
+                <canvas id="client-hire-most"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="km-by-client"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="frequent-and-distance-vehicles-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="cost-per-client-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="dangerous-material-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="most-traveled-by-zipcode-chart-container"></canvas>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="most-traveled-by-state-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="most-traveled-by-municipality-chart-container"></canvas>
+            </div>
+        </div>
+    </div>
+
+</div> <!--main container-->
+
+<div id="footer">
+    <footer>The Backyard Dev. Todos los derechos reservados. 2022</footer>
+</div>
+
+<!--JS-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="./static/vendor/js/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="./static/vendor/js/chart.js"></script>
+<script type="text/javascript" src="./static/vendor/js/index.umd.min.js"></script>
+
+<script type="text/javascript" src="./data/operator/operator_data.js"></script>
+<script type="text/javascript" src="./data/operator/transported_merchandise.js"></script>
+<script type="text/javascript" src="./data/operator/clients_hire_me_more.js"></script>
+<script type="text/javascript" src="./data/operator/clients_travel_more.js"></script>
+<script type="text/javascript" src="./data/operator/km_by_issuer.js"></script>
+<script type="text/javascript" src="./data/operator/frecuent_vehicles_and_total_km.js"></script>
+<script type="text/javascript" src="./data/operator/cost_per_client.js"></script>
+<script type="text/javascript" src="./data/operator/docs_status.js"></script>
+<script type="text/javascript" src="./data/operator/pay_by_weight.js"></script>
+<script type="text/javascript" src="./data/operator/dangerous_material.js"></script>
+<script type="text/javascript" src="./data/operator/most_traveled_by_zip_code.js"></script>
+<script type="text/javascript" src="./data/operator/most_traveled_by_state.js"></script>
+<script type="text/javascript" src="./data/operator/most_traveled_by_municipality.js"></script>
+<script type="text/javascript" src="./data/operator/send_more_merchandise.js"></script>
+
+
+<script type="text/javascript" src="./static/js/utils.js"></script>
+<script type="text/javascript" src="./static/js/operator/operator_info.js"></script>
+<script type="text/javascript" src="./static/js/operator/transported_merchandise.js"></script>
+<script type="text/javascript" src="./static/js/operator/clients_where_travel_most.js"></script>
+<script type="text/javascript" src="./static/js/operator/clients_hire_travel_most.js"></script>
+<script type="text/javascript" src="./static/js/operator/km_by_client.js"></script>
+<script type="text/javascript" src="./static/js/operator/frecuent_vehicles_and_total_km.js"></script>
+<script type="text/javascript" src="./static/js/operator/cost_per_client.js"></script>
+<script type="text/javascript" src="./static/js/operator/docs_status.js"></script>
+<script type="text/javascript" src="./static/js/operator/dangerous_material.js"></script>
+<script type="text/javascript" src="./static/js/operator/most_traveled_by_zip_code.js"></script>
+<script type="text/javascript" src="./static/js/operator/most_traveled_by_municipality.js"></script>
+<script type="text/javascript" src="./static/js/operator/most_traveled_by_state.js"></script>
+
+<script type="text/javascript" src="static/js/operator/operator-drawcharts.js"></script>
+</body>
+</html>

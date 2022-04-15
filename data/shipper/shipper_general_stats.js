@@ -1,0 +1,1 @@
+window.shipper_general_stats = '{"factura": 37375.52, "cant_mercancia": 1890, "peso": 50214.073, "km_recorridos": 6603.37, "cant_viajes": 5}';

@@ -1,0 +1,1 @@
+window.km_by_issuer = '[{"issuer": "EKU9003173C9", "issuerName": "EMPAQUES MODERNOS PEOSA S DE RL DE CV", "km_recorridos": 356}, {"issuer": "EUMA830911699", "issuerName": "Alejandro Esquivel Martinez", "km_recorridos": 118}, {"issuer": "IVD920810GU2", "issuerName": "Escuela Kemper Urgate S.A. de C.V.", "km_recorridos": 75.00}]';

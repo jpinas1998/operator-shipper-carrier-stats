@@ -1,0 +1,1 @@
+window.most_traveled_by_state = '[{"identifier": "MEX", "cant": 128}, {"identifier": "DIF", "cant": 60}, {"identifier": "NLE", "cant": 2}]';

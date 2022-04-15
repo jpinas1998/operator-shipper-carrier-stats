@@ -1,0 +1,1 @@
+window.shipper_receive_more = '[{"issuer": "OTR0712264H5", "issuerName": "OVA TRANSPORTES, S.A. DE C.V.", "cant_viajes": 2}, {"issuer": "HEZJ6308065U8", "issuerName": "JUVENTINO HERNANDEZ ZETINA (T. HERNANDEZ)", "cant_viajes": 2}, {"issuer": "OTR0712264H5", "issuerName": "OVA TRANSPORTES", "cant_viajes": 1}]';

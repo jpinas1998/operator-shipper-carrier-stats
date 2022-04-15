@@ -1,0 +1,1 @@
+window.transported_merchandise = '[{"clave": "78101800", "nombre": "Trasporte de carga por carretera", "cant_vendida": 8.00}]';

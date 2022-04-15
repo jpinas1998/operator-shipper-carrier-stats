@@ -1,0 +1,260 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Centro de Reportes</title>
+    <link rel="icon" href="./static/img/favicon.ico">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./static/css/report.css">
+    <link rel="stylesheet" href="./static/vendor/css/bootstrap/bootstrap.min.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+<div id="navbar">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./static/img/logo.jpeg" alt="" width="35" height="35" class="d-inline-block align-top">
+                Centro de Reportes
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div id="main-content" class="container">
+
+    <div class="container">
+
+        <div class="center">
+            <h2>Reportes del embarcador</h2>
+            <hr style="width:40%;" class="center">
+        </div>
+
+        <br>
+
+        <table>
+            <tr>
+                <td>Nombre del Embarcador:</td>
+                <td id="shipper-name"></td>
+            </tr>
+            <tbody>
+            <tr>
+                <td>RFC del Embarcador:</td>
+                <td id="shipper-rfc"></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <div class="center">
+            <table class="table">
+                <caption>Estadísticas generales</caption>
+                <thead>
+                <tr>
+                    <th>Pagos</th>
+                    <th>Viajes</th>
+                    <th>Peso</th>
+                    <th>Distancia</th>
+                    <th>Cant. mercancía</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td id="pay"></td>
+                    <td id="trips"></td>
+                    <td id="weight"></td>
+                    <td id="distance"></td>
+                    <td id="merchandise"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-4">
+                <canvas id="shipper-transported-merchandise"></canvas>
+            </div>
+            <div class="col-lg-4">
+                <canvas id="shipper-docs-type-chart-container"></canvas>
+            </div>
+            <div class="col-xl-4">
+                <canvas id="shipper-doc-status-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-carrier-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-vehicular-conf-chart-container"></canvas>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-day-chart-container"></canvas>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-merchandise-by-day-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-pay-by-day-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-distance-by-day-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-stats-by-weight-by-day-chart-container"></canvas>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <canvas id="shipper-most-travel-by-state-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+             <div class="col-lg-12">
+                <canvas id="shipper-most-travel-by-municipality-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+             <div class="col-lg-12">
+                <canvas id="shipper-most-travel-by-zipcode-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+             <div class="col-lg-12">
+                <canvas id="shipper-pay-by-km-kg-chart-container"></canvas>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+             <div class="col-lg-12">
+                <canvas id="shipper-dangerous-material-chart-container"></canvas>
+            </div>
+        </div>
+
+    </div> <!--main container-->
+
+    <div id="footer">
+        <footer>The Backyard Dev. Todos los derechos reservados. 2022</footer>
+    </div>
+</div>
+
+<!--JS-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="./static/vendor/js/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="./static/vendor/js/chart.js"></script>
+<script type="text/javascript" src="./static/vendor/js/index.umd.min.js"></script>
+
+
+<script type="text/javascript" src="./data/shipper/shipper_info.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_receive_more.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_doc_types.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_doc_status.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_general_stats.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_stats_by_carrier.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_stats_by_vehicular_conf.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_stats_by_day.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_merchandise_by_carrier_by_day.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_merchandise_by_pay_by_day.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_merchandise_by_distance_by_day.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_merchandise_by_weight_by_day.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_most_traveled_zipcode.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_most_traveled_state.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_most_traveled_municipality.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_pay_by_km_and_kg.js"></script>
+<script type="text/javascript" src="./data/shipper/shipper_dangerous_material.js"></script>
+
+
+<script type="text/javascript" src="./static/js/utils.js"></script>
+
+<script type="text/javascript" src="./static/js/shipper/shipper_info.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_receive_more_merchandise.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_doc_types.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_doc_status.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_general_stats.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_carrier.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_vehicular_conf.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_day.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_merchandise_by_day.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_distance_by_day.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_weight_by_day.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_stats_by_pay_by_day.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_most_travel_by_municipality.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_most_travel_by_state.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_most_travel_by_zipcode.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_pay_by.js"></script>
+<script type="text/javascript" src="./static/js/shipper/shipper_dangerous_material.js"></script>
+
+<script type="text/javascript" src="./static/js/shipper/shipper-drawcharts.js"></script>
+
+</body>
+</html>

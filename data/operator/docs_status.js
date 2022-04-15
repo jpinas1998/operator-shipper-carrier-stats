@@ -1,0 +1,1 @@
+window.docs_status = '[{"stage_name": "Certificados", "cant": 8}, {"stage_name": "Con error", "cant": 12}, {"stage_name": "Pendientes", "cant": -12}]';

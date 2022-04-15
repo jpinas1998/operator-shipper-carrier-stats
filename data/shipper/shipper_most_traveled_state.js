@@ -1,0 +1,1 @@
+window.shipper_most_traveled_state = '[{"identifier": "PUE", "cant": 8}, {"identifier": "DIF", "cant": 5}, {"identifier": "MEX", "cant": 3}, {"identifier": "QUE", "cant": 2}]';

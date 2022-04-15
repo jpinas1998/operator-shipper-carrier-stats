@@ -1,0 +1,1 @@
+window.shipper_most_traveled_municipality = '[]';

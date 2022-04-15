@@ -1,0 +1,1 @@
+window.most_traveled_by_municipality = '[{"identifier": "006", "cant": 2}, {"identifier": "099", "cant": 2}]';

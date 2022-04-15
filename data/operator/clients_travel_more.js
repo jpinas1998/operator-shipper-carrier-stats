@@ -1,0 +1,1 @@
+window.clients_travel_more = '[{"addresee": "EKU9003173C9", "addreseeName": "COMERCIALIZADORA PEPSICO MEXICO S DE RL DE CV", "cant_viajes": 3}, {"addresee": "LIF180417AQ3", "addreseeName": "LIFTIT SAPI DE CV", "cant_viajes": 3}, {"addresee": "EKU9003173C9", "addreseeName": "Pepsico test", "cant_viajes": 2}]';

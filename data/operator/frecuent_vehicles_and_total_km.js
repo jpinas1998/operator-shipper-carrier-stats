@@ -1,0 +1,1 @@
+window.frecuent_vehicles_and_total_km = '[{"chapa": "541YC7", "km_recorridos": 474, "cant_viajes": 184}, {"chapa": "LB04795", "km_recorridos": 75.00, "cant_viajes": 6}]';
