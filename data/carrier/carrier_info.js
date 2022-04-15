@@ -1,1 +1,1 @@
-window.carrier_info = '{"issuer": "TMS0706225M9", "issuerName": "TRANSPORTES Y MANIOBRAS SILVA SA DE CV"}';
+window.carrier_info = '{"issuer": "TRE000000AQ1", "issuerName": "Operator Example"}';

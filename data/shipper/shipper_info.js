@@ -1,1 +1,1 @@
-window.shipper_info = '{"rfc": "LOG101125V20", "nombre": "LOGTEC S.A. DE C.V."}';
+window.shipper_info = '{"rfc": "RFC000000V01", "nombre": "Company Example"}';

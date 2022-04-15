@@ -1,1 +1,1 @@
-window.operator_data = '{"rfc": "SAJM780608CY5", "nombre": "SANCHEZ JIMENEZ MAXIMINO"}';
+window.operator_data = '{"rfc": "RFCT000000CY0", "nombre": "Operator Example"}';

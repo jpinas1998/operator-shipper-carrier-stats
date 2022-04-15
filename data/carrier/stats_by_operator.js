@@ -1,1 +1,1 @@
-window.stats_by_operator = '[{"id": "TMS0706225M9", "factura": 25251562.86, "cant_mercancia": 212985, "peso": 6707782.782, "km_recorridos": 757950.74, "cant_viajes": 3889}]';
+window.stats_by_operator = '[{"id": "TRE000000AQ1", "factura": 25251562.86, "cant_mercancia": 212985, "peso": 6707782.782, "km_recorridos": 757950.74, "cant_viajes": 3889}]';
