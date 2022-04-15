@@ -1,0 +1,52 @@
+/* linear-gradient(to left, #ffcc00 0%, #000066 100%); */
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#navbar {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ffcc00;
+
+    margin-bottom: 20px;
+}
+
+table, th, tr, td {
+    border-color: #ffcc00 !important;
+    color: #000000 !important;
+    font-size: 16px;
+    caption-side: top !important;
+    padding: 9px;
+}
+
+caption {
+    text-align: center !important;
+}
+
+#footer {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #ffcc00;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ffcc00;
+
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    text-align: center;
+    font-size: 12px;
+    color: #000066;
+
+    background-color: #f8f9fa;
+}

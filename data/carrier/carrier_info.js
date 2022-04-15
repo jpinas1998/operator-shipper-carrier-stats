@@ -1,0 +1,1 @@
+window.carrier_info = '{"issuer": "AIMA720830PEA", "issuerName": "ANA EVELIA ARRIAGA MUNOZ"}';

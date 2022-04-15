@@ -1,0 +1,1 @@
+window.stats_by_vehicular_conf = '[{"id": "T3S2", "factura": 1094039.72, "cant_mercancia": 2803, "peso": 5889918.192, "km_recorridos": 46279.62, "cant_viajes": 353}, {"id": "C2", "factura": 464715.72, "cant_mercancia": 1092, "peso": 2585707.566, "km_recorridos": 114488.80, "cant_viajes": 142}]';

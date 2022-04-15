@@ -1,0 +1,1 @@
+window.most_travel_by_state = '[{"identifier": "MEX", "cant": 1467}, {"identifier": "DIF", "cant": 118}, {"identifier": "VER", "cant": 19}, {"identifier": "MOR", "cant": 18}, {"identifier": "TLA", "cant": 3}, {"identifier": "JAL", "cant": 3}, {"identifier": "GRO", "cant": 1}, {"identifier": "CHH", "cant": 1}, {"identifier": "PUE", "cant": 1}]';

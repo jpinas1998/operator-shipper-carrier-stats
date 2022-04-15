@@ -1,0 +1,1 @@
+window.most_travel_by_municipality = '[]';

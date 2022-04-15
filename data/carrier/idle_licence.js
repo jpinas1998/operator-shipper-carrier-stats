@@ -1,0 +1,1 @@
+window.idle_licence = '[{"id": "19AE8C", "cant_viajes": 20}, {"id": "05AC6V", "cant_viajes": 54}, {"id": "76AG3T", "cant_viajes": 56}, {"id": "56AN6J", "cant_viajes": 68}, {"id": "42AN4F", "cant_viajes": 70}, {"id": "03AK6S", "cant_viajes": 85}, {"id": "DUMMY5", "cant_viajes": 142}]';

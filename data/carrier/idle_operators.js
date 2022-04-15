@@ -1,0 +1,1 @@
+window.idle_operators = '[{"id": "MOME571127SM3", "cant_viajes": 7}, {"id": "JUPV731208LB4", "cant_viajes": 27}, {"id": "JUMR650416RR2", "cant_viajes": 50}, {"id": "VASD760412PMA", "cant_viajes": 57}, {"id": "BAAJ961223D68", "cant_viajes": 67}, {"id": "MOCM630425GK8", "cant_viajes": 68}, {"id": "DIAE760615GT9", "cant_viajes": 84}, {"id": "AIMA720830PEA", "cant_viajes": 135}]';

@@ -1,0 +1,1 @@
+window.carrier_general_stats = '{"factura": 1558755.44, "cant_mercancia": 3895, "peso": 8475625.758, "km_recorridos": 160768.42, "cant_viajes": 495}';
